@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile Card Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <article data-testid="test-profile-card">
+        <header>
+          <img src="images/profile.jpg" alt="Profile Image" srcset="" />
+          <div class="title">
+            <h2>Emmanuel Divine</h2>
+            <p class="location">
+              <img src="images/nigeria.png" alt="Nigeria" />
+              <span>Port Harcourt, Nigeria</span>
+            </p>
+          </div>
+        </header>
+        <main>
+          <div class="description">
+            <p>
+              Hi, I am Emmanuel Divine. My professional experience is in
+              Accounting and Frontend Development. I started my career as an
+              accountant but gradually developed my skills in frontend
+              development.
+            </p>
+          </div>
+          <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Cooking</li>
+              <li>Traveling</li>
+              <li>Playing Football</li>
+            </ul>
+          </section>
+          <section class="dislikes">
+            <h3>Dislikes</h3>
+            <ul>
+              <li>Spiders</li>
+              <li>Being late</li>
+              <li>People who are dishonest</li>
+              <!-- <li>Not having enough time for myself</li> -->
+            </ul>
+          </section>
+        </main>
+        <footer>
+          <ul>
+            <li>
+              <a href="#" class="linkedin"
+                ><i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="github"
+                ><i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter"
+                ><i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="time-info">
+            <span class="epoch-time">10000000</span>
+          </div>
+        </footer>
+      </article>
+    </div>
+  </body>
+</html>
