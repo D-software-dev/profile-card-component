@@ -36,12 +36,23 @@
         </header>
         <main>
           <div class="description">
-            <p>
+            <p
+              id="text-description"
+              class="text-content clamped"
+              aria-live="polite"
+            >
               Hi, I am Emmanuel Divine. My professional experience is in
               Accounting and Frontend Development. I started my career as an
               accountant but gradually developed my skills in frontend
               development.
             </p>
+            <button
+              class="toggle-btn"
+              aria-controls="text-description"
+              aria-expanded="false"
+            >
+              Read More
+            </button>
           </div>
           <section class="hobbies">
             <h3>Hobbies</h3>
