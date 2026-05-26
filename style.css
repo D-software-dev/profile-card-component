@@ -165,3 +165,8 @@ footer ul li a {
   color: var(--text-light);
   font-size: 0.8rem;
 }
+
+.time-info p {
+  margin-bottom: 0.25em;
+  font-weight: bold;
+}
